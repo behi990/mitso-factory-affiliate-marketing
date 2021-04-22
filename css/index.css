@@ -1,0 +1,466 @@
+body {
+    background-color: white;
+}
+
+.main-slider .in {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.main_slider {
+    width: calc(100% - 486px);
+    margin-bottom: 15px;
+}
+
+.main-slider .banners {
+    width: 486px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-slider .banners .main-banner {
+    width: 100%;
+    padding: 0 0 5px 10px;
+}
+
+.main-slider .banners .small-banners {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.main-slider .banners .small-banners .item {
+    width: calc(50% - 5px);
+    padding: 5px 0;
+}
+
+
+/* .main-slider .banners img {} */
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    padding-right: 0;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-indicators li {
+    text-indent: inherit;
+    /*width: calc(10% - 10px);
+    */
+    /*height: auto;
+    */
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    z-index: 100;
+    margin: 0 5px;
+    background-color: white;
+    opacity: 0.6;
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.carousel-indicators li:hover {
+    opacity: 1;
+}
+
+.carousel-indicators li img {
+    border: 1px solid #fff;
+}
+
+
+/* .carousel-item img {} */
+
+
+/* menu styles below */
+
+.my-menu li {
+    padding: 10px;
+    background-color: #025288;
+}
+
+
+/* menu styles up */
+
+.specials {
+    padding: 30px 0;
+    margin-top: 20px;
+}
+
+.specials .in {
+    display: flex;
+    justify-content: space-between;
+}
+
+.specials .in .item {
+    display: flex;
+    padding: 0 7.5px;
+}
+
+.specials .in .item img {
+    width: 60px;
+    margin-left: 10px;
+}
+
+.specials .in .item .info h5 {
+    font-size: 14px;
+    color: #fff;
+}
+
+.specials .in .item .info span {
+    font-size: 13px;
+    color: #ccc
+}
+
+.index-about-sec {
+    padding: 80px 0;
+    background-color: #fff;
+    background-image: url(../img/background.svg);
+    /*background-attachment: fixed;*/
+    background-size: 400px;
+}
+
+.index-about-sec .in {
+    display: flex;
+    float: right;
+    width: 100%;
+    /*border-radius: 7px;*/
+    /*border: 1px solid #d9dfe2;*/
+    /*box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);*/
+    position: relative;
+    overflow: hidden;
+    /*background-image: url("../img/back7.png");*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+}
+
+.index-about-sec .in h1 {
+    font-size: 25px;
+    color: #231f20;
+}
+
+.index-about-sec .show-more {
+    background-color: #ffcd11;
+    color: #000000;
+    padding: 3px 15px;
+}
+
+.index-about-sec .show-more:hover {
+    background-color: #000000;
+    color: #fff;
+}
+
+
+/* .index-about-sec .in .info {} */
+
+.index-about-sec .in p {
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.index-about-sec .in video {
+    min-width: 700px;
+    float: left;
+    margin-right: 15px;
+}
+
+.index-about-sec .in ul {
+    width: calc(100% - 150px);
+    float: right;
+    list-style: circle;
+    padding-right: 17px;
+}
+
+.index-about-sec .in .video-play {
+    width: 250px;
+    height: 250px;
+    background-color: #ffcb08;
+    float: left;
+    position: absolute;
+    left: -80px;
+    bottom: -125px;
+    border-radius: 50%;
+    border: 27px dashed #231f20;
+    color: #231f20;
+}
+
+.index-about-sec .in .video-play i {
+    position: absolute;
+    font-size: 70px;
+    color: #231f20;
+    left: 80px;
+    top: 18px;
+}
+
+.product-slider-title {
+    color: #ffcd11 !important;
+}
+
+.section-and-aside {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.products-slider {
+    width: 100%;
+    padding: 50px 0;
+    color: #231f20;
+}
+
+.products-slider .product-slider-title {
+    /*border-bottom: 1px solid #fff;*/
+    color: #ffcd11;
+}
+
+.owl-carousel .owl-item img {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.product-item h4 {
+    font-size: 14px;
+    margin: 10px 0;
+    font-weight: normal;
+    overflow: hidden;
+    background-color: #ffffff;
+    text-align: center;
+    width: 100%;
+    min-height: 50px;
+    max-height: 50px;
+    padding: 10px 10px;
+    line-height: 18px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.news_sec {
+    width: 100%;
+    padding: 50px 0;
+    color: #231f20;
+    background-image: url(../img/industrial.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.news_sec h3 {
+    color: #000;
+}
+
+.news_slider .owl-carousel.owl-rtl .owl-item {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.news_slider .owl-carousel.owl-rtl .owl-item .news-item {
+    float: right;
+    width: 100%;
+    display: flex;
+}
+
+.news_slider .news-item img {
+    width: 160px;
+    height: 160px;
+    background-color: transparent;
+    padding: 0;
+    border: 1px solid #cfcfcf;
+    margin-left: 20px;
+    box-shadow: none;
+}
+
+.news_slider .news-item .info h3 {
+    font-size: 16px;
+}
+
+.news_slider .news-item .info span {
+    height: 70px;
+    overflow: hidden;
+    float: right;
+    text-align: justify;
+}
+
+
+/* .articles_slider {} */
+
+.articles_slider .owl-carousel.owl-rtl .owl-item {
+    padding: 2px;
+}
+
+.articles_slider .owl-carousel.owl-rtl .owl-item .news-item {
+    float: right;
+    width: 100%;
+    padding: 10px;
+    border-radius: 7px;
+    display: flex;
+    color: #fff;
+}
+
+.articles_slider .news-item img {
+    width: 160px;
+    height: 160px;
+    background-color: transparent;
+    padding: 0;
+    border: 1px solid #cfcfcf;
+    border-radius: 0;
+    margin-left: 20px;
+    box-shadow: none;
+}
+
+.articles_slider .news-item .info h3 {
+    font-size: 16px;
+}
+
+.articles_slider .news-item .info span {
+    height: 70px;
+    overflow: hidden;
+    float: right;
+    text-align: justify;
+    font-weight: 100;
+}
+
+.banner-sec {
+    margin: 0 0 50px 0;
+}
+
+.between-banners .in {
+    display: flex;
+    justify-content: space-between;
+}
+
+.between-banners .item {
+    width: calc(50% - 7.5px);
+}
+
+.between-banners .item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1500px) {
+    .main_slider {
+        width: calc(100% - 408px);
+    }
+    .main-slider .banners {
+        width: 408px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .main_slider {
+        width: calc(100% - 334px);
+    }
+    .main-slider .banners {
+        width: 334px;
+    }
+    .index-about-sec .in video {
+        min-width: 400px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .main {
+        padding-top: 140px;
+    }
+    .main_slider {
+        width: calc(100% - 257px);
+    }
+    .main-slider .banners {
+        width: 257px;
+    }
+    .specials .in {
+        display: block;
+    }
+    .specials .in .item {
+        float: right;
+        width: 50%;
+        padding-bottom: 30px;
+    }
+    .index-about-sec .in {
+        flex-direction: column;
+        align-items: center;
+    }
+    .index-about-sec .info {
+        margin-bottom: 15px;
+    }
+    .index-about-sec .in video {
+        margin-right: 0
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        padding-top: 120px;
+    }
+    .main-slider .in {
+        flex-direction: column;
+    }
+    .main_slider {
+        width: 100%;
+    }
+    .main-slider .banners {
+        width: 100%;
+    }
+    .main-slider .banners .main-banner {
+        padding: 0 0 5px 0;
+    }
+    .main-slider .banners .small-banners {
+        padding: 5px 0 0 0;
+        justify-content: space-between;
+    }
+    .main-slider .banners .small-banners .item {
+        width: calc(50% - 5px);
+        padding: 0;
+    }
+    .index-about-sec .in .video-play {
+        left: calc(50% - 125px);
+    }
+    .index-about-sec .in .video-play i {
+        left: 62px;
+    }
+    .index-about-sec .in ul {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-slider {
+        padding-bottom: 15px;
+    }
+    .specials {
+        display: none;
+    }
+    .specials .in .item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .specials .in .item:last-child {
+        padding-bottom: 0;
+    }
+    .index-about-sec .in {
+        padding: 30px 15px 15px 15px;
+    }
+    .index-about-sec .in video {
+        min-width: 100%;
+    }
+}

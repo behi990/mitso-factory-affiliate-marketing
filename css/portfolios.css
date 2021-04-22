@@ -1,0 +1,98 @@
+.main {
+    padding-top: 105px;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+}
+.about .header {
+    padding: 120px 0 40px 0;
+    margin-bottom: 10px;
+    background-size: 570px;
+    background-image: url(../img/sofa-pattern.jpg);
+    color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+}
+.about .header h1 {
+    font-size: 28px;
+    color: #292929;
+}
+h2 {
+    font-size: 18px;
+    color: #000;
+}
+.product-slider-title {
+    color: #000;
+}
+p {
+    margin-bottom: 0;
+}
+.breadcrumb {
+    background-color: transparent;
+    padding: 5px 0;
+    margin: 0;
+}
+.breadcrumb a {
+    font-size: 12px;
+    color: #888888;
+}
+.breadcrumb a:hover {
+    color: #fc0;
+}
+.breadcrumb a::after {
+    content: '/';
+    margin: 0 5px;
+}
+.breadcrumb a:last-child::after {
+    content: '';
+}
+
+
+
+.results .in .item {
+    float: right;
+    width: 50%;
+    padding: 7.5px;
+}
+.results .in .item .portfolio-item {
+    float: right;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    border: 1px solid #e4e4e4;
+}
+.results .in .item .portfolio-item .pic {
+    width: 130px;
+}
+.results .in .item .portfolio-item .info {
+    width: calc(100% - 150px);
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 990px) {
+    .main {
+        padding-top: 96px;
+    }
+    .header h1 {
+        font-size: 26px;
+    }
+    .results .in .item {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .header h1 {
+        padding: 5px 10px;
+        background-color: rgb(255 255 255 / 0.7);
+    }
+
+}

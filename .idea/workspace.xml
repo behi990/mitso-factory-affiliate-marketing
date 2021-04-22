@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="347d7e57-f4a7-4075-a3b4-62cd998e32ba" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.articles_slider .owl-carousel.owl-rtl .owl-item .news-item</find>
+      <find>.foo</find>
+      <find>.news_sec h3</find>
+      <find>.header-main .bottom .in .search button</find>
+      <find>.header-main .bottom .in .search input</find>
+      <find>.header-main .bottom nav ul li .menu-link-name</find>
+      <find>.main-slider .banners .main-banner</find>
+      <find>main_slider</find>
+      <find>.news_slider .owl-carousel.owl-rtl .owl-item .news-item</find>
+      <find>.header-main .bottom nav ul li .menu-list ul</find>
+      <find>.products-slider .product-item .video-play</find>
+      <find>سم</find>
+      <find>.blog .head h1</find>
+      <find>.product-item h4</find>
+      <find>login_modal</find>
+      <find>.register-sec .in .header</find>
+      <find>video_</find>
+      <find>.info-and-gallery .in</find>
+      <find>.pretty input:checked~.state.p-primary label:after,.pretty.p-toggle .state.p-primary label:after</find>
+      <find>.login-sec .in form button</find>
+      <find>.info-and-gallery .main-info .share</find>
+      <find>.comments .comment header</find>
+      <find>comments .comment header</find>
+      <find>.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active</find>
+      <find>price-list</find>
+      <find>.info-and-gallery .main-info .share .list-of-social ul li a</find>
+      <find>.star-rate</find>
+      <find>.contact .bottom form input[type=text]</find>
+      <find>.contact .top .socials a</find>
+      <find>.close_menu</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>href=&quot;stylesheet/</replace>
+      <replace>گرفتن نوبت</replace>
+      <replace>ویزیت تلفنی</replace>
+      <replace>جستجوی پزشک، تخصص، بیمارستان و...</replace>
+      <replace>.about-us .bottom</replace>
+      <replace>مشاهده پزشکان</replace>
+      <replace>office</replace>
+      <replace>register</replace>
+      <replace>top</replace>
+      <replace>ffffff</replace>
+      <replace>بستن</replace>
+      <replace>کلینیک</replace>
+      <replace>داروخانه</replace>
+      <replace>for-web</replace>
+      <replace>ff7324</replace>
+      <replace>امین</replace>
+      <replace>mystore-cart</replace>
+      <replace>category</replace>
+      <replace>products-results</replace>
+      <replace>.comments .comment</replace>
+      <replace>.comments</replace>
+      <replace>user.png</replace>
+      <replace>more_about</replace>
+      <replace>register-sec</replace>
+      <replace>&lt;a href=&quot;cart.html&quot;&gt;&lt;span&gt;2&lt;/span&gt;&lt;i class=&quot;fas fa-shopping-cart&quot;&gt;&lt;/i&gt; سبد خرید&lt;/a&gt;</replace>
+      <replace>.modal</replace>
+      <replace>کارخانه</replace>
+      <replace>نمونه</replace>
+      <replace>دستگاه</replace>
+      <replace>video_modal</replace>
+    </replaceStrings>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectId" id="1g8eBt0ORm1NjlziD6tUtOwOcKG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Rigelmain" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\wamp64\www\reza karkhane\css" />
+      <recent name="F:\wamp64\www\reza karkhane" />
+      <recent name="F:\wamp64\www\seller - amin\css" />
+      <recent name="F:\wamp64\www\seller - amin" />
+      <recent name="F:\wamp64\www\seller - amin\stylesheet" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="347d7e57-f4a7-4075-a3b4-62cd998e32ba" name="Default" comment="" />
+      <created>1574110395110</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574110395110</updated>
+      <workItem from="1574110396678" duration="307000" />
+      <workItem from="1574114253657" duration="5585000" />
+      <workItem from="1574194152747" duration="1232000" />
+      <workItem from="1574664047603" duration="13096000" />
+      <workItem from="1574847279488" duration="10316000" />
+      <workItem from="1575136071667" duration="2715000" />
+      <workItem from="1575191340682" duration="9631000" />
+      <workItem from="1575266415234" duration="12377000" />
+      <workItem from="1575453534407" duration="3093000" />
+      <workItem from="1581602194146" duration="5530000" />
+      <workItem from="1581663842383" duration="22584000" />
+      <workItem from="1581842552776" duration="521000" />
+      <workItem from="1581845416988" duration="313000" />
+      <workItem from="1588950276559" duration="3286000" />
+      <workItem from="1589006562078" duration="21073000" />
+      <workItem from="1589100871060" duration="8716000" />
+      <workItem from="1589131232675" duration="107000" />
+      <workItem from="1589185629162" duration="6612000" />
+      <workItem from="1589620793515" duration="13575000" />
+      <workItem from="1589704159577" duration="6543000" />
+      <workItem from="1589801389627" duration="12168000" />
+      <workItem from="1589965499847" duration="5145000" />
+      <workItem from="1589991153430" duration="3076000" />
+      <workItem from="1590047870263" duration="3063000" />
+      <workItem from="1590078248417" duration="3284000" />
+      <workItem from="1590233454502" duration="695000" />
+      <workItem from="1590596244213" duration="2966000" />
+      <workItem from="1590679270174" duration="1198000" />
+      <workItem from="1590741293188" duration="614000" />
+      <workItem from="1590754655294" duration="2052000" />
+      <workItem from="1590913354257" duration="3221000" />
+      <workItem from="1591024220192" duration="5797000" />
+      <workItem from="1591087168566" duration="19406000" />
+      <workItem from="1591173215237" duration="17644000" />
+      <workItem from="1591255753338" duration="16886000" />
+      <workItem from="1591463466956" duration="55000" />
+      <workItem from="1592056163089" duration="2134000" />
+      <workItem from="1592210096766" duration="16848000" />
+      <workItem from="1592287265671" duration="13222000" />
+      <workItem from="1592377851377" duration="5839000" />
+      <workItem from="1592418727353" duration="4609000" />
+      <workItem from="1592448160900" duration="1812000" />
+      <workItem from="1592904708002" duration="2635000" />
+      <workItem from="1592926913689" duration="6340000" />
+      <workItem from="1593016063940" duration="46233000" />
+      <workItem from="1593506367190" duration="468000" />
+      <workItem from="1593530767621" duration="13971000" />
+      <workItem from="1593718927441" duration="6608000" />
+      <workItem from="1593725930205" duration="4151000" />
+      <workItem from="1593937273036" duration="8155000" />
+      <workItem from="1594020235587" duration="43253000" />
+      <workItem from="1594556600632" duration="9440000" />
+      <workItem from="1594620000941" duration="43010000" />
+      <workItem from="1594901159556" duration="28829000" />
+      <workItem from="1595078439798" duration="17532000" />
+      <workItem from="1595329285521" duration="898000" />
+      <workItem from="1595350974606" duration="27033000" />
+      <workItem from="1595526243288" duration="699000" />
+      <workItem from="1595950677207" duration="1729000" />
+      <workItem from="1596031961496" duration="5827000" />
+      <workItem from="1596091685071" duration="5521000" />
+      <workItem from="1596115613421" duration="7403000" />
+      <workItem from="1596215870780" duration="3426000" />
+      <workItem from="1597500516265" duration="1975000" />
+      <workItem from="1599418786830" duration="599000" />
+      <workItem from="1599544938161" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1599544980690">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="273" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599544980690" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1599544939100">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599544939100" />
+  </component>
+</project>

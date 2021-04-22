@@ -1,0 +1,111 @@
+.pro-head {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    border-bottom: 1px solid #e4e4e4;
+}
+.pro-head .in {
+    width: 100%;
+    float: right;
+    cursor: default;
+    /* margin: 10px 0 15px 0; */
+    padding: 80px 0 0 0;
+    border-radius: 5px;
+    /* background-color: white; */
+    /* box-shadow: 0 2px 4px 0 rgba(0,0,0,.03); */
+    /* border: 1px solid #e4e4e4; */
+    display: flex;
+}
+.pro-head .in .info h1 {
+    font-size: 20px;
+}
+.breadcrumb {
+    background-color: transparent;
+    padding: 5px 0;
+}
+.breadcrumb a {
+    font-size: 12px;
+    color: #888888;
+}
+.breadcrumb a::after {
+    content: '/';
+    margin: 0 5px;
+}
+.breadcrumb a:last-child::after {
+    content: '';
+}
+.results {
+    padding-bottom: 50px;
+}
+.results .item {
+    width: calc(25% - 15px);
+    height: 320px;
+    float: right;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 7.5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.results .item .pic {
+    float: right;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.results .item .pic img {
+}
+.results .item h3 {
+    float: right;
+    width: 100%;
+    font-size: 16px;
+    max-height: 38px;
+    overflow: hidden;
+}
+.results .item span {
+    float: right;
+    width: 100%;
+    max-height: 75px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1500px) {
+}
+@media only screen and (max-width: 1200px) {
+    .results .item {
+        height: 290px;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .results .item {
+        width: calc(33.333% - 15px);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .results .item {
+        width: calc(50% - 15px);
+        height: 332px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .results .item {
+        width: 100%;
+        height: auto;
+        margin: 0 0 10px 0;
+    }
+    .results .item h3 {
+        max-height: initial;
+    }
+    .results .item span {
+        max-height: initial;
+    }
+}

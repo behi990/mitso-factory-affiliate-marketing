@@ -1,0 +1,141 @@
+.main {
+    padding-top: 105px;
+}
+.pro-head {
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    border-bottom: 1px solid #e4e4e4;
+}
+.pro-head .in {
+    width: 100%;
+    float: right;
+    cursor: default;
+    /*margin: 10px 0 15px 0;*/
+    padding: 80px 0 0 0;
+    border-radius: 5px;
+    /*background-color: white;*/
+    /*box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);*/
+    /*border: 1px solid #e4e4e4;*/
+    display: flex;
+}
+.pro-head .in .pic {
+    float: right;
+    width: 85px;
+    margin-left: 10px;
+    padding: 15px 15px 15px 15px;
+    background-color: #eceff1;
+    border-radius: 20px 20px 0 0;
+    border: 1px solid #d0d7db;
+    border-bottom: 0;
+}
+.pro-head .in .pic img {
+    float: right;
+    width: 100%;
+}
+.pro-head .in .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 15px;
+}
+.pro-head .in .info h1 {
+    font-size: 28px;
+}
+
+
+
+.contact .top {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+.contact .top strong {
+    margin-left: 5px;
+}
+.contact .top .socials {
+    margin-top: 10px;
+}
+.contact .top .socials a {
+    font-size: 20px;
+    margin-left: 10px;
+}
+.contact .top .socials a:hover {
+    color: #fc0
+}
+.contact .bottom form {
+    width: 100%;
+    float: right;
+    margin-bottom: 50px;
+}
+.contact .bottom form input[type=text] {
+    float: right;
+    width: calc(50% - 10px);
+    margin: 5px;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    min-width: 203px;
+}
+.contact .bottom form textarea {
+    float: right;
+    width: calc(100% - 10px);
+    margin: 5px;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    min-width: 203px;
+}
+.contact .bottom form button {
+    background-color: #fc0;
+    color: black;
+    border: none;
+    border-radius: 0;
+    padding: 5px 20px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.contact .bottom form button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 5px 0;
+    margin: 0;
+    float: right;
+    width: 100%;
+}
+.breadcrumb a {
+    font-size: 12px;
+    color: #888888;
+}
+.offer .breadcrumb a:hover {
+    color: #29b7f6;
+}
+.breadcrumb a::after {
+    content: '/';
+    margin: 0 5px;
+}
+.breadcrumb a:last-child::after {
+    content: '';
+}
+
+
+.banner {
+    position: relative;
+}
+.banner h1 {
+    font-size: 18px;
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: calc(50% - 75px);
+    color: white;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .contact .bottom form input[type=text] {
+        width: calc(100% - 10px);
+    }
+}
