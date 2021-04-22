@@ -854,6 +854,7 @@ footer .links-sec .in {
 footer .links-sec .in .col-link {
     width: 20%;
     line-height: 30px;
+    padding-right: 0px !important;
 }
 
 footer .links-sec .in .col-link h5 {
