@@ -12,23 +12,6 @@
 }
 
 
-/* monday codes */
-
-
-/* #first-section {
-    display: table;
-    max-width: 100%;
-}
-
-#main-menu,
-.main-carousel {
-    display: table-cell;
-} */
-
-
-/* monday codes */
-
-
 /* tuesday codes down */
 
 #main-menu .card-header:hover {
@@ -62,6 +45,10 @@ body {
 
 .carousel-item img {
     padding-top: 15px;
+}
+
+.carousel-inner {
+    margin-top: -18px !important;
 }
 
 .card {
