@@ -1,22 +1,26 @@
 .main {
     padding: 180px 0 100px 0;
 }
+
 .login-sec {
+    margin-top: 50px;
     float: right;
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .login-sec .in {
     width: 500px;
     min-height: 300px;
     border-radius: 5px;
     background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03);
     border: 1px solid #e4e4e4;
     display: flex;
     flex-direction: column;
 }
+
 .login-sec .in .header {
     width: 100%;
     height: 50px;
@@ -26,19 +30,25 @@
     color: #ffffff;
     background-color: black;
 }
+
 .login-sec .in .header h1 {
     font-size: 18px;
 }
+
 .login-sec .in .login-body {
     width: 100%;
     padding: 25px 15px 15px 15px;
 }
+
 .login-sec .in .login-body p {
     margin-bottom: 0;
+    text-align: center;
 }
+
 .login-sec .in .login-body .error {
     color: #ff5968;
 }
+
 .login-sec .in form {
     display: flex;
     flex-direction: column;
@@ -46,21 +56,25 @@
     align-items: center;
     padding-top: 10px;
 }
+
 .login-sec .in form input {
     width: 250px;
     padding: 8px 15px;
     border: 1px solid #ccc;
     margin: 7.5px 0;
 }
+
 .login-sec .in form .rememberme {
     width: 250px;
     margin: 7.5px 0 0 0;
 }
+
 .login-sec .in form .rememberme .p-check input {
     width: 132px;
     padding: 0;
     margin: 0;
 }
+
 .login-sec .in form button {
     background-color: #ffcd11;
     color: #000000;
@@ -71,24 +85,20 @@
     margin: 7.5px;
     float: left;
 }
+
 .login-sec .in form button:hover {
     background-color: #000;
     color: #fff;
 }
+
 .restore-pass {
     width: 250px;
     margin: 0 0 10px 0;
 }
+
 .restore-pass a {
     color: #03a9f4;
 }
-
-
-
-
-
-
-
 
 .register-sec {
     float: right;
@@ -96,16 +106,18 @@
     display: flex;
     justify-content: center;
 }
+
 .register-sec .in {
     width: 500px;
     min-height: 300px;
     border-radius: 5px;
     background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03);
     border: 1px solid #e4e4e4;
     display: flex;
     flex-direction: column;
 }
+
 .register-sec .in .header {
     width: 100%;
     height: 50px;
@@ -115,16 +127,20 @@
     color: #ffffff;
     background-color: black;
 }
+
 .register-sec .in .header h1 {
     font-size: 18px;
 }
+
 .register-sec .in .login-body {
     width: 100%;
     padding: 25px 15px 15px 15px;
 }
+
 .register-sec .in .login-body p {
     margin-bottom: 0;
 }
+
 .register-sec .in .login-body .error {
     color: #ff5968;
 }
@@ -132,6 +148,7 @@
 .register-sec .in form {
     padding-top: 10px;
 }
+
 .register-sec .in form .item-100 {
     float: right;
     width: 100%;
@@ -141,6 +158,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .register-sec .in form .item {
     float: right;
     width: 50%;
@@ -150,6 +168,7 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .register-sec .in form input {
     float: right;
     width: 100%;
@@ -157,6 +176,7 @@
     border: 1px solid #ccc;
     margin: 7.5px 0;
 }
+
 .register-sec .in form textarea {
     float: right;
     width: 100%;
@@ -164,6 +184,7 @@
     border: 1px solid #ccc;
     margin: 7.5px 0;
 }
+
 .register-sec .in form select {
     float: right;
     width: 100%;
@@ -171,22 +192,27 @@
     border: 1px solid #ccc;
     margin: 7.5px 0;
 }
+
 .register-sec .in form .rememberme {
     width: 250px;
     margin: 7.5px 0 0 0;
 }
+
 .register-sec .in form .rememberme .p-check input {
     width: 132px;
     padding: 0;
     margin: 0;
 }
+
 .register-sec .in form .radio-inputs {
     display: flex;
     margin-top: 10px;
 }
+
 .register-sec .in form .p-radio {
     width: 50%;
 }
+
 .register-sec .in form .item-100 button {
     background-color: #ffcd11;
     color: #000000;
@@ -198,16 +224,11 @@
     width: 130px;
     float: left;
 }
+
 .register-sec .in form .item-100 button:hover {
     background-color: #000;
     color: #fff;
 }
-
-
-
-
-
-
 
 @media only screen and (max-width: 768px) {
     .login-sec .in {
@@ -216,7 +237,9 @@
     .login-sec .in form input {
         width: 100%;
     }
-    .login-sec .in form .rememberme .p-check input, .login-sec .in form .rememberme, .restore-pass {
+    .login-sec .in form .rememberme .p-check input,
+    .login-sec .in form .rememberme,
+    .restore-pass {
         width: 100%;
     }
     .register-sec .in {
@@ -226,6 +249,7 @@
         width: 100%;
     }
 }
+
 @media only screen and (max-width: 500px) {
     .register-sec .in form .item-100 button {
         width: 100%;

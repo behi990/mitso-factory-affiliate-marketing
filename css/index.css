@@ -118,8 +118,9 @@ body {
 }
 
 .specials .in .item .info h5 {
-    font-size: 14px;
+    font-size: 15px;
     color: #fff;
+    padding: 15px;
 }
 
 .specials .in .item .info span {

@@ -2,21 +2,25 @@
     display: flex;
     flex-direction: row-reverse;
 }
+
 aside {
     width: 415px;
     margin-left: 15px;
 }
+
 aside .box {
     width: 100%;
+    margin-top: 60px;
     float: right;
     min-height: 400px;
     padding: 15px;
     background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03);
     border: 1px solid #e4e4e4;
     display: flex;
     flex-direction: column;
 }
+
 aside .box .item {
     float: right;
     width: 100%;
@@ -24,22 +28,25 @@ aside .box .item {
     padding: 10px;
     margin-bottom: 15px;
 }
+
 aside .box .item:last-child {
     margin-bottom: 0;
 }
+
 aside .box .item h3 {
     font-size: 14px;
     margin: 0;
     font-weight: normal;
     line-height: 22px;
 }
+
 aside .box .item .pic {
     float: right;
     width: 90px;
     margin: 0 0 0 10px;
 }
-aside .box .item .pic img {
-}
+
+aside .box .item .pic img {}
 
 aside .box .item-main {
     float: right;
@@ -48,9 +55,11 @@ aside .box .item-main {
     padding: 10px;
     margin-bottom: 15px;
 }
+
 aside .box .item-main:last-child {
     margin-bottom: 0;
 }
+
 aside .box .item-main h3 {
     float: right;
     width: 100%;
@@ -59,50 +68,59 @@ aside .box .item-main h3 {
     font-weight: normal;
     line-height: 22px;
 }
+
 aside .box .item-main .pic {
     float: right;
     width: 100%;
     margin: 0 0 0 10px;
 }
-aside .box .item-main .pic img {
-}
 
+
+/* aside .box .item-main .pic img {} */
 
 .blog-comment {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
+
 .blog {
     width: 100%;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     padding: 15px;
     margin-bottom: 15px;
     background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03);
     border: 1px solid #e4e4e4;
 }
+
 .blog .pic {
     width: 100%;
 }
-.blog .pic img {
-}
+
+.blog .pic img {}
+
 .blog .head {
     display: flex;
     flex-direction: column;
     padding: 25px 0 15px 0;
 }
+
 .blog .head h1 {
     font-size: 20px;
 }
+
 .blog .head span {
     font-size: 12px;
 }
+
 .blog .share {
     border-top: 1px solid #cfcfcf;
     padding-top: 15px;
 }
+
 .important-text-1 {
     background-color: #FFECB3;
     width: 100%;
@@ -112,6 +130,7 @@ aside .box .item-main .pic img {
     border-right: 2px solid #F44336;
     color: #F44336;
 }
+
 .important-text-2 {
     background-color: #DCEDC8;
     width: 100%;
@@ -121,6 +140,7 @@ aside .box .item-main .pic img {
     border-right: 2px solid #43A047;
     color: #43A047;
 }
+
 .important-text-3 {
     background-color: #E1F5FE;
     width: 100%;
@@ -131,8 +151,6 @@ aside .box .item-main .pic img {
     color: #2196F3;
 }
 
-
-
 .comments-box {
     display: flex;
     flex-direction: column;
@@ -140,26 +158,31 @@ aside .box .item-main .pic img {
     margin-bottom: 15px;
     border-radius: 5px;
     background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03);
     border: 1px solid #e4e4e4;
 }
+
 .comments-box h3 {
     font-size: 20px;
 }
+
 .login-btn {
     background-color: #03A9F4;
     color: white !important;
     padding: 2px 15px;
     border-radius: 30px;
 }
+
 .comments-box {
     margin-bottom: 55px;
 }
+
 .comments-box form {
     display: flex;
     flex-direction: column;
     margin-bottom: 30px;
 }
+
 .comments-box form textarea {
     width: 100%;
     border: 1px solid #ccc;
@@ -167,6 +190,7 @@ aside .box .item-main .pic img {
     margin-bottom: 15px;
     padding: 15px;
 }
+
 .comments-box form button {
     padding: 5px 25px;
     border-radius: 30px;
@@ -176,6 +200,7 @@ aside .box .item-main .pic img {
     color: #fff;
     font-weight: normal;
 }
+
 .comments-box .login-btn {
     padding: 5px 20px;
     text-align: center;
@@ -187,18 +212,22 @@ aside .box .item-main .pic img {
 
 
 /*comments*/
+
 .comments {
     min-height: 177px;
 }
+
 .comments .comment {
     display: flex;
     flex-direction: column;
     background-color: #f6f6f6;
     margin-bottom: 15px;
 }
+
 .comments .comment:last-child {
     margin: 0;
 }
+
 .comments .comment header {
     float: right;
     display: flex;
@@ -208,35 +237,42 @@ aside .box .item-main .pic img {
     background-color: #000000;
     color: white;
 }
+
 .comments .comment header .right {
     display: flex;
     flex-direction: column;
 }
+
 .comments .comment header .right .name {
     font-size: 14px;
     font-weight: bold;
 }
+
 .comments .comment header .right .who {
     font-size: 12px;
     color: #aaa;
 }
+
 .comments .comment header .left {
     width: 100px;
     display: flex;
     flex-direction: column;
 }
+
 .comments .comment header .left .rate-comment {
     display: flex;
     flex-direction: row-reverse;
 }
+
 .comments .comment header .left .rate-comment a {
     background-color: #e1e9ec;
     padding: 0 5px;
     margin-left: 20px;
     border-radius: 20px;
 }
-.comments .comment header .left .date {
-}
+
+.comments .comment header .left .date {}
+
 .comments .comment p {
     margin: 0;
     font-size: 13px;
@@ -245,6 +281,7 @@ aside .box .item-main .pic img {
     padding: 10px;
     min-height: 83px;
 }
+
 .comments .rate-comment .like {
     float: left;
     width: 20px;
@@ -259,12 +296,15 @@ aside .box .item-main .pic img {
     margin-left: 10px;
     background-color: transparent;
 }
+
 .comments .rate-comment .like:hover {
     color: #4CAF50;
 }
+
 .comments .rate-comment i {
     cursor: pointer;
 }
+
 .comments .rate-comment .dislike {
     float: left;
     width: 20px;
@@ -278,9 +318,11 @@ aside .box .item-main .pic img {
     font-size: 12px;
     background-color: transparent;
 }
+
 .comments .rate-comment .dislike:hover {
     color: #F44336;
 }
+
 .comments .rate-comment .num {
     float: left;
     margin: 0;
@@ -288,6 +330,7 @@ aside .box .item-main .pic img {
     line-height: 23px;
     color: #808080;
 }
+
 .comments .date {
     float: left;
     width: 100%;
@@ -297,12 +340,12 @@ aside .box .item-main .pic img {
     padding-left: 7px;
 }
 
-
 .pro-head {
     background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03);
     border-bottom: 1px solid #e4e4e4;
 }
+
 .pro-head .in {
     width: 100%;
     float: right;
@@ -315,6 +358,7 @@ aside .box .item-main .pic img {
     /*border: 1px solid #e4e4e4;*/
     display: flex;
 }
+
 .pro-head .in .info h1 {
     font-size: 20px;
 }
@@ -330,6 +374,7 @@ aside .box .item-main .pic img {
         width: 100%;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .comments .comment header .left .rate-comment a {
         margin-left: 7px;

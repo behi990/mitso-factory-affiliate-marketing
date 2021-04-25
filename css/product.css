@@ -1,34 +1,54 @@
 .info-and-gallery .in {
     width: 100%;
+    margin-top: 75px;
+    padding-top: 17px;
     display: flex;
     padding: 15px;
     background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03);
     border: 1px solid #e4e4e4;
 }
+
 .info-and-gallery .gallery {
     width: 500px;
     padding-left: 30px;
 }
+
+.video-box {
+    margin: 20px 369px;
+}
+
+
 /*.info-and-gallery .gallery img {*/
-    /*width: auto;*/
+
+
+/*width: auto;*/
+
+
 /*}*/
+
 .carousel-fade .carousel-item img {
     border: 1px solid #ccc;
+    margin-top: 2px;
+    padding-left: 20px;
 }
-.carousel-inner {
-}
+
+.carousel-inner {}
+
 .carousel-indicators {
     margin: 0;
 }
+
 .carousel-indicators {
     position: relative;
     bottom: 0;
 }
+
 .carousel-indicators li {
     width: 20%;
     height: auto;
 }
+
 .carousel-indicators li img {
     float: right;
     width: 100%;
@@ -36,41 +56,37 @@
     border: 1px solid #ccc;
 }
 
-
-
-
-
-
-
 .info-and-gallery .main-info {
     width: calc(100% - 500px);
 }
-
 
 .info-and-gallery .main-info .breadcrumb {
     background-color: transparent;
     padding: 5px 0;
 }
+
 .info-and-gallery .main-info .breadcrumb a {
     font-size: 12px;
     color: #888888;
 }
+
 .info-and-gallery .main-info .breadcrumb a::after {
     content: '/';
     margin: 0 5px;
 }
+
 .info-and-gallery .main-info .breadcrumb a:last-child::after {
     content: '';
 }
 
-
-
 .info-and-gallery .main-info {
     position: relative;
 }
+
 .info-and-gallery .main-info h1 {
     font-size: 22px;
 }
+
 .star-rate {
     background-color: #fc0;
     color: black;
@@ -78,15 +94,18 @@
     border-radius: 4px;
     font-size: 12px;
 }
+
 .star-rate i {
     margin-left: 3px;
 }
+
 .info-and-gallery .main-info .share {
     position: absolute;
     left: 0;
     top: 10px;
     color: #222;
 }
+
 .info-and-gallery .main-info .share .list-of-social {
     transition: 0.25s;
     position: absolute;
@@ -94,6 +113,7 @@
     bottom: -30px;
     display: none;
 }
+
 .info-and-gallery .main-info .share .list-of-social ul {
     display: flex;
     flex-direction: row-reverse;
@@ -102,47 +122,51 @@
     background-color: #eceff1;
     border-radius: 5px;
 }
+
 .info-and-gallery .main-info .share .list-of-social ul li {
     margin-right: 7px;
     float: left;
 }
+
 .info-and-gallery .main-info .share .list-of-social ul li:last-child {
     margin-right: 0;
 }
+
 .info-and-gallery .main-info .share .list-of-social ul li a {
     font-size: 18px;
     line-height: 35px;
     max-height: 30px;
     float: left;
 }
+
 .info-and-gallery .main-info .share:hover .list-of-social {
     display: block;
 }
+
 .info-and-gallery .main-info .share .list-of-social ul li a:hover {
     color: #fc0;
 }
-
 
 .info-and-gallery .main-info .short-info {
     display: flex;
     margin: 25px 0 35px 0;
 }
+
 .info-and-gallery .main-info .short-info span {
     width: 150px;
 }
+
 .info-and-gallery .main-info .short-info .items {
     font-size: 14px;
 }
-.info-and-gallery .main-info .short-info .items ul li{
+
+.info-and-gallery .main-info .short-info .items ul li {
     list-style: disc;
 }
-
-
 
 .more-info h3 {
     font-size: 16px;
 }
-
 
 .nav-tabs .nav-link {
     border: none;
@@ -150,16 +174,21 @@
     padding: 10px 1px;
     margin: 0 0 0 30px;
 }
-.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
     border: none;
 }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
     border: none;
     background: transparent;
     font-weight: bold;
     color: #000;
     font-size: 20px;
 }
+
 .nav-tabs .nav-link.active::after {
     content: '';
     float: left;
@@ -171,50 +200,53 @@
     bottom: 0;
 }
 
-
-
-
-
 .product-information {
     margin: 30px 0;
 }
+
 .product-information .in {
     width: 100%;
     padding: 15px;
     background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03);
     border: 1px solid #e4e4e4;
 }
+
 .product-information h3 {
     font-size: 18px;
     margin: 10px 0 30px 0;
 }
+
 .technical_specifications {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
+
 .technical_specifications .item {
     display: flex;
     flex-direction: row;
     padding: 5px 10px;
 }
+
 .technical_specifications .item:nth-child(odd) {
     background-color: #f5f6f7;
 }
+
 .technical_specifications .item span:first-child {
     margin-left: 10px;
     width: 200px;
 }
 
-
 .comments-tab {
     display: flex;
     flex-direction: column;
 }
+
 .comment-form {
     margin-bottom: 55px;
 }
+
 .comments-tab form {
     display: flex;
     flex-direction: column;
@@ -226,8 +258,11 @@
     direction: ltr;
 }
 
-.rating > input { display: none; }
-.rating > label:before {
+.rating>input {
+    display: none;
+}
+
+.rating>label:before {
     margin: 5px;
     font-size: 1.25em;
     font-family: 'Font Awesome 5 Free';
@@ -235,28 +270,47 @@
     content: "\f005";
 }
 
-.rating > .half:before {
+.rating>.half:before {
     content: "\f089";
     position: absolute;
 }
 
-.rating > label {
+.rating>label {
     color: #ddd;
     float: right;
     margin-bottom: 0;
 }
 
+
 /***** CSS Magic to Highlight Stars on Hover *****/
 
-.rating > input:checked ~ label, /* show gold star when clicked */
-.rating:not(:checked) > label:hover, /* hover current star */
-.rating:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+.rating>input:checked~label,
 
-.rating > input:checked + label:hover, /* hover current star when changing rating */
-.rating > input:checked ~ label:hover,
-.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
-.rating > input:checked ~ label:hover ~ label { color: #FFED85;  }
+/* show gold star when clicked */
 
+.rating:not(:checked)>label:hover,
+
+/* hover current star */
+
+.rating:not(:checked)>label:hover~label {
+    color: #FFD700;
+}
+
+
+/* hover previous stars in list */
+
+.rating>input:checked+label:hover,
+
+/* hover current star when changing rating */
+
+.rating>input:checked~label:hover,
+.rating>label:hover~input:checked~label,
+
+/* lighten current selection */
+
+.rating>input:checked~label:hover~label {
+    color: #FFED85;
+}
 
 .comments-tab form textarea {
     width: 100%;
@@ -264,6 +318,7 @@
     margin-bottom: 15px;
     padding: 15px;
 }
+
 .comments-tab form button {
     padding: 5px 25px;
     width: 120px;
@@ -273,10 +328,12 @@
     font-weight: normal;
     border-radius: 0;
 }
+
 .comments-tab form button:hover {
     background-color: #000;
     color: #fff;
 }
+
 .comments-tab .login-btn {
     padding: 5px 20px;
     text-align: center;
@@ -285,21 +342,26 @@
     color: #000 !important;
     border-radius: 0;
 }
+
 .comments-tab .login-btn:hover {
     background-color: #000;
     color: #fff;
 }
 
+
 /*comments*/
+
 .comments {
     min-height: 177px;
 }
+
 .comments .comment {
     display: flex;
     flex-direction: column;
     background-color: #f6f6f6;
     margin-bottom: 15px;
 }
+
 .comments .comment header {
     float: right;
     display: flex;
@@ -309,34 +371,42 @@
     background-color: #000000;
     color: white;
 }
+
 .comments .comment header .right {
     display: flex;
     flex-direction: column;
 }
+
 .comments .comment header .right .name {
     font-size: 14px;
 }
+
 .comments .comment header .right .who {
     font-size: 12px;
     color: #aaa;
 }
+
 .comments .comment header .left {
     width: 100px;
     display: flex;
     flex-direction: column;
 }
+
 .comments .comment header .left .rate-comment {
     display: flex;
     flex-direction: row-reverse;
 }
+
 .comments .comment header .left .rate-comment a {
     background-color: #e1e9ec;
     padding: 0 5px;
     margin-left: 20px;
     border-radius: 20px;
 }
-.comments .comment header .left .date {
-}
+
+
+/* .comments .comment header .left .date {} */
+
 .comments .comment p {
     margin: 0;
     font-size: 13px;
@@ -345,6 +415,7 @@
     padding: 10px;
     min-height: 83px;
 }
+
 .comments .rate-comment .like {
     float: left;
     width: 20px;
@@ -359,12 +430,15 @@
     margin-left: 10px;
     background-color: transparent;
 }
+
 .comments .rate-comment .like:hover {
     color: #4CAF50;
 }
+
 .comments .rate-comment i {
     cursor: pointer;
 }
+
 .comments .rate-comment .dislike {
     float: left;
     width: 20px;
@@ -378,9 +452,11 @@
     font-size: 12px;
     background-color: transparent;
 }
+
 .comments .rate-comment .dislike:hover {
     color: #F44336;
 }
+
 .comments .rate-comment .num {
     float: left;
     margin: 0;
@@ -388,6 +464,7 @@
     line-height: 23px;
     color: #808080;
 }
+
 .comments .date {
     float: left;
     width: 100%;
@@ -397,22 +474,17 @@
     padding-left: 7px;
 }
 
-
-
 .products-slider {
     margin-bottom: 50px;
 }
+
 .products-slider .product-slider {
     width: 100%;
     padding: 15px;
     background-color: white;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.03);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .03);
     border: 1px solid #e4e4e4;
 }
-
-
-
-
 
 @media only screen and (max-width: 1200px) {
     .info-and-gallery .gallery {
@@ -422,6 +494,7 @@
         padding-right: 0;
     }
 }
+
 @media only screen and (max-width: 990px) {
     .main {
         padding-top: 135px;
@@ -456,6 +529,7 @@
         padding: 15px;
     }
 }
+
 @media only screen and (max-width: 768px) {
     .info-and-gallery .main-info h1 {
         text-align: center;
@@ -483,7 +557,9 @@
     .info-and-gallery .main-info .short-info .items {
         padding-right: 30px;
     }
-    .info-and-gallery .main-info .color span, .info-and-gallery .main-info .size span, .info-and-gallery .main-info .price .title {
+    .info-and-gallery .main-info .color span,
+    .info-and-gallery .main-info .size span,
+    .info-and-gallery .main-info .price .title {
         width: 70px;
     }
     .info-and-gallery .gallery {
