@@ -25,23 +25,21 @@
 /*width: auto;*/
 
 
-/*}*/
+/* */
 
 .carousel-fade .carousel-item img {
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     margin-top: 2px;
     padding-left: 20px;
 }
-
-.carousel-inner {}
 
 .carousel-indicators {
     margin: 0;
 }
 
 .carousel-indicators {
-    position: relative;
-    bottom: 0;
+    position: absolute;
+    bottom: 15px;
 }
 
 .carousel-indicators li {
