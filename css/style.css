@@ -959,7 +959,7 @@ section {
     font-weight: 500;
     line-height: 25px;
     margin-top: 10px;
-    >>>>>>>style changes padding: 0 10px;
+    padding: 0 10px;
 }
 
 .owl-theme .owl-dots {
@@ -1060,15 +1060,7 @@ section {
     margin-bottom: 15px;
 }
 
-
-/* .contact-sec {
-    background-image: url("../img/Contact.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
-
-<<<<<<< HEAD .contact-sec .in {
+.contact-sec .in {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1539,17 +1531,18 @@ footer .copyright .in p {
     display: none;
 }
 
-<<<<<<< HEAD
-}
-*/=======.for-mobile {
+.for-mobile {
     display: none;
 }
+
 .show-responsive {
     display: none;
 }
+
 .top-massage {
     padding-top: 104px !important;
 }
+
 .col-link li:hover,
 .col-link-2 li:hover {
     background-color: lightgrey;
@@ -1559,4 +1552,3 @@ footer .copyright .in p {
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
->>>>>>>style changes
