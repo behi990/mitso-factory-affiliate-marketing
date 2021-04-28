@@ -256,7 +256,7 @@ body {
 }
 
 .carousel-item img {
-    padding-top: 15px;
+    padding-top: 66px;
 }
 
 .carousel-inner {
@@ -324,9 +324,10 @@ section.specials {
     background-color: #061c56;
 }
 
-.specials:hover {
-    margin: 5px;
-}
+
+/* .specials:hover {
+    
+} */
 
 #my-banner {
     border: 1px solid #eae0e0;
@@ -1450,7 +1451,6 @@ footer .copyright .in p {
 
 
 /* .modal-open .modal {
->>>>>>> style changes
     background-color: #000000cc;
 } */
 
