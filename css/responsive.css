@@ -21,6 +21,12 @@
                         #about-company-accordion {
                             margin-top: 10px !important;
                         }
+                        #about-company-accordion .card-header {
+                            font-size: 18px;
+                        }
+                        #about-company-accordion .card-body {
+                            font-size: 14px;
+                        }
                     }
                     
                     @media (min-width:768px) {

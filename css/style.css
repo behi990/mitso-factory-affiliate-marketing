@@ -19,14 +19,6 @@
     color: black;
 }
 
-.card-header:first-child {
-    border-radius: 6px !important;
-    -webkit-border-radius: 6px !important;
-    -moz-border-radius: 6px !important;
-    -ms-border-radius: 6px !important;
-    -o-border-radius: 6px !important;
-}
-
 
 /* tuesday codes */
 
@@ -41,10 +33,6 @@ body {
 
 .container-fluid {
     padding-top: 20px;
-}
-
-.carousel-item img {
-    padding-top: 15px;
 }
 
 .carousel-inner {
@@ -80,7 +68,6 @@ div.main.page-content.top-massage {
     padding: 15px;
     margin: 0;
     float: right;
-    /* border: 1px solid gray; */
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -200,47 +187,10 @@ section#portfolio .portfolio-item .portfolio-caption p {
     margin: 0;
 }
 
-
-/* محصولات ما */
-
-
-/* .specials {
-    padding: 30px 0;
-} */
-
-
-/* @media (max-width: 768px) {
-    .main-menu li {
-=======
-    @font-face {
-        font-family: 'Glyphicons';
-        src: url('../fonts/glyphicons-halflings-regular.eot') format('eot'), url('../fonts/glyphicons-halflings-regular.woff') format('woff');
-        font-style: normal;
-    }
-    
-    @font-face {
-        font-family: 'Yekan';
-        src: url('../fonts/Yekan/Yekan/Yekan.woff'), url('../fonts/Yekan/Yekan/Yekan.eot'), url('../fonts/Yekan/Yekan/Yekan.ttf'), url('../fonts/Yekan/Yekan/Yekan.svg');
-        font-weight: normal;
-        font-style: normal;
-    }
-    /* tuesday codes down */
-
 #main-menu .card-header:hover {
     background-color: lightgrey;
     color: black;
 }
-
-.card-header:first-child {
-    border-radius: 6px !important;
-    -webkit-border-radius: 6px !important;
-    -moz-border-radius: 6px !important;
-    -ms-border-radius: 6px !important;
-    -o-border-radius: 6px !important;
-}
-
-
-/* tuesday codes */
 
 body {
     font-family: 'Yekan';
@@ -1253,204 +1203,7 @@ footer .copyright .in p {
 /*--------------------------------------------------------modal-------------------------------------------------------*/
 
 
-/* .modal-open .modal {
-=======
-    
-    .contact-sec .in {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 40px 0;
-    }
-    
-    .contact-sec .in p {
-        margin: 0;
-        display: flex;
-        align-items: center;
-    }
-    
-    .contact-sec .in p i {
-        margin-left: 10px;
-        font-size: 22px;
-        -webkit-transform: scaleX(-1) rotate(20deg);
-        transform: scaleX(-1) rotate(-30deg);
-    }
-    
-    .contact-sec .in span {
-        font-size: 16px;
-    }
-    
-    footer .links-sec {
-        width: 100%;
-    }
-    
-    footer .links-sec .in {
-        display: flex;
-        padding: 40px 0;
-        border-top: 1px solid #cfd8dc;
-        border-bottom: 1px solid #cfd8dc;
-    }
-    
-    footer .links-sec .in .col-link {
-        width: 20%;
-        line-height: 30px;
-        padding-right: 0px !important;
-    }
-    
-    footer .links-sec .in .col-link h5 {
-        font-size: 18px;
-    }
-    
-    footer .links-sec .in .col-link-2 .item {
-        float: left;
-        padding: 5px;
-    }
-    
-    footer .links-sec .in .col-link-2 .item a {
-        float: right;
-        width: 120px;
-        height: 120px;
-        padding: 10px;
-        border-radius: 7px;
-        overflow: hidden;
-        background-color: white;
-    }
-    
-    footer .links-sec .in .col-link-2 .item a img {
-        float: right;
-        height: 100%;
-    }
-    
-    footer .links-sec .in .col-link-2 {
-        width: 30%;
-        line-height: 30px;
-    }
-    
-    footer .about-sec {
-        display: block;
-    }
-    
-    footer .about-sec .in {
-        padding: 30px 0;
-    }
-    
-    footer .about-sec h1 {
-        font-size: 20px;
-    }
-    
-    footer .about-sec p {
-        margin-bottom: 0;
-        height: 65px;
-        overflow: hidden;
-    }
-    
-    .less_about {
-        display: none;
-    }
-    
-    footer .copyright {
-        font-weight: 200;
-        background-color: #061C56;
-        color: white;
-    }
-    
-    footer .copyright .in {
-        display: flex;
-        justify-content: space-between;
-        padding: 15px 0;
-    }
-    
-    footer .copyright .in p {
-        margin-bottom: 0;
-    }
-    
-    .modal-backdrop {
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-    
-    .modal-backdrop .show {
-        opacity: 1 !important;
-    }
-    
-    .modal .header {
-        width: 100%;
-        height: 50px;
-        line-height: 14px;
-        padding: 15px 0 13px;
-        text-align: center;
-        background-color: #fbfbfe;
-        color: #4e6672;
-        border-bottom: 1px solid #ff5968;
-    }
-    
-    .modal .header h1 {
-        font-size: 18px;
-    }
-    
-    .modal .login-body {
-        width: 100%;
-        padding: 25px 15px 15px 15px;
-    }
-    
-    .modal .login-body p {
-        margin-bottom: 0;
-    }
-    
-    .modal .login-body .error {
-        color: #ff5968;
-    }
-    
-    .modal form {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10px;
-    }
-    
-    .modal form input {
-        width: 250px;
-        padding: 8px 15px;
-        border: 1px solid #ccc;
-        border-radius: 7px;
-        margin: 7.5px 0;
-    }
-    
-    .modal form .rememberme {
-        width: 250px;
-        margin: 7.5px 0 0 0;
-    }
-    
-    .modal form .rememberme .p-check input {
-        width: 132px;
-        padding: 0;
-        margin: 0;
-    }
-    
-    .modal form button {
-        background-color: #03A9F4;
-        color: white;
-        border: none;
-        border-radius: 30px;
-        padding: 5px 20px;
-        font-weight: normal;
-        margin: 7.5px;
-    }
-    
-    .restore-pass {
-        width: 250px;
-        margin: 0 0 10px 0;
-    }
-    
-    .restore-pass a {
-        color: #03a9f4;
-    }
-    /*--------------------------------------------------------modal-------------------------------------------------------*/
-
-
-/* .modal-open .modal {
-    background-color: #000000cc;
-} */
+/*--------------------------------------------------------modal-------------------------------------------------------*/
 
 .modal-content {
     position: relative;
@@ -1554,12 +1307,9 @@ footer .copyright .in p {
 
 /* درباره شرکت  */
 
-.about-note {
-    margin: 0 auto;
-}
-
 .about-section {
     margin-bottom: 75px;
+    border: 1px solid lightgrey;
 }
 
 .about-company-slider {
@@ -1567,8 +1317,9 @@ footer .copyright .in p {
     margin-top: 30px;
 }
 
-#about-company-accordion {
-    margin-top: 216px;
+#about-company-accordion .card-header:hover {
+    background-color: #025288;
+    color: white !important;
 }
 
 #about-company-accordion .card {
@@ -1576,7 +1327,34 @@ footer .copyright .in p {
     box-shadow: 0px 2px 10px #888888;
 }
 
+.about-company-slider .carousel-item {
+    padding-top: 0;
+}
+
 #about-company-accordion .card-header {
     border-bottom: none !important;
     border-top: none !important;
+}
+
+#about-company-accordion .card-header a {
+    font-weight: 500;
+    font-size: 15px;
+    color: #23244a;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 100%;
+}
+
+#about-company-accordion .card-header a span:before {
+    font-family: themify;
+    color: #23244a;
+    font-weight: 700;
+    content: "\e64b";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+#about-company-accordion .card-header:hover {
+    color: #025288 !important;
 }
