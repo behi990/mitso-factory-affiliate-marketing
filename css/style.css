@@ -11,6 +11,27 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Flaticon';
+    src: url('../fonts/Flaticon.ttf'), url('../fonts/Flaticon.woff'), url('../fonts/Flaticond41d.eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'uicon';
+    src: url('../fonts/uicons-regular-rounded/webfonts/uicons-regular-rounded.eot'), url('../fonts/uicons-regular-rounded/webfonts/uicons-regular-rounded.woff'), url('../fonts/uicons-regular-rounded/webfonts/uicons-regular-rounded.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'glyphicon';
+    src: url('../bootstrap-glyphicons/fonts/glyphicons-halflings-regular.eot'), url('../bootstrap-glyphicons/fonts/glyphicons-halflings-regular.svg'), url('../bootstrap-glyphicons/fonts/glyphicons-halflings-regular.ttf'), url('../bootstrap-glyphicons/fonts/glyphicons-halflings-regular.woff'), url('../bootstrap-glyphicons/fonts/glyphicons-halflings-regular.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 /* tuesday codes down */
 
@@ -559,6 +580,7 @@ section {
 }
 
 .header-main .bottom .in .logo {
+    margin-top: 10px;
     width: 100px;
     float: right;
     display: inline;
@@ -573,7 +595,6 @@ section {
     position: relative;
     padding: 10px 0;
     display: block;
-    /* align-items: flex-end; */
 }
 
 .header-main .bottom .in .search form {
@@ -586,7 +607,7 @@ section {
     height: 40px;
     border: none;
     border-bottom: 1px solid #d0d7db;
-    padding-left: 90px;
+    padding-left: 20px;
     padding-right: 5px;
     line-height: 45px;
     font-size: 14px;
@@ -661,8 +682,9 @@ section {
 }
 
 .header-main .bottom nav {
-    width: calc(100% - 250px);
+    /* width: calc(100% - 50px); */
     display: flex;
+    width: 125%;
 }
 
 .header-main .bottom nav ul {
@@ -1357,4 +1379,47 @@ footer .copyright .in p {
 
 #about-company-accordion .card-header:hover {
     color: #025288 !important;
+}
+
+
+/* استایل های سبد خرید */
+
+a:not([href]):not([tabindex]) {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.btn-light {
+    background-color: #061c56 !important;
+    border-color: #f8f9fa;
+}
+
+.header-shopping-cart {
+    height: 40px;
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    color: #061c56;
+    background-color: #ffc113;
+}
+
+.header-shopping-cart:hover {
+    background-color: #025288;
+    color: white;
+    border: 1px solid lightgrey;
+}
+
+.carousel-control-prev {
+    left: 0;
+    top: 50% !important;
+    bottom: 50% !important;
+}
+
+.carousel-control-next {
+    right: 0;
+    top: 50% !important;
+    bottom: 50% !important;
 }
