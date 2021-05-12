@@ -581,7 +581,7 @@ section {
 
 .header-main .bottom .in .logo {
     margin-top: 10px;
-    width: 100px;
+    width: 60px;
     float: right;
     display: inline;
     flex-direction: column;
@@ -684,6 +684,8 @@ section {
 .header-main .bottom nav {
     /* width: calc(100% - 50px); */
     display: flex;
+    justify-content: center;
+    justify-items: center;
     width: 125%;
 }
 
